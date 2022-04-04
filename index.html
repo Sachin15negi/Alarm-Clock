@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ALarm Clock</title>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <!-- Clock Section -->
+        <div id="clock"></div>
+       
+        <!-- Set alarm Section -->
+        <form class="setAlarm">
+            <label class="alarm-heading">
+                <h2>SET ALARM</h2><label><br>
+                    <div class="set-alarm-field">
+                        <input type="number" name="hour" id="hour" placeholder="Hour" max="23" min="00">
+                        <input type="number" name="min" id="min" placeholder="Min" max="59" min="00">
+                        <input type="number" name="sec" id="sec" placeholder="Sec" max="59" min="00">
+
+                    </div>
+                    <div class="controls">
+                        <button type="submit" onclick="setAlarm()" class="set-alarm">Set Alarm</button>
+                        <button type="reset" onclick="clearAlarm()" class="clear-alarm">Stop Alarm</button>
+                    </div>
+                </label>
+        </form>
+    </section>
+    <hr style="margin-top: 20px">
+
+    <!-- Multiple alarm Section -->
+    <section>
+        <div>
+            <h3 class="alarm-heading" style="margin-top: -20px;">UPCOMING ALARMS</h3>
+        </div>
+        <div>
+            <ul id="myList">
+
+            </ul>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
