@@ -1,108 +1,101 @@
-
-body{
-  
-    margin-top: 5%;
-    margin-left: 40%; 
-    margin-right: 40%;
-    align-items: center;
-    background-color: black;
-}  
-
-.container{
-    align-content: center;
-    text-align: center;
+body {
+  margin-top: 5%;
+  margin-left: 40%;
+  margin-right: 40%;
+  align-items: center;
+  background-image: url("Clock.jpg");
+  /* background-color: black; */
 }
 
-.background img{
-    height: 100%; 
-    width: 100%;  
-    
+.container {
+  align-content: center;
+  text-align: center;
 }
 
-.timer{
-    width: 40px;
-    height: 40px;
-    margin-top: 7px;
-    margin-right: 10px;
+.background img {
+  height: 100%;
+  width: 100%;
 }
 
-#clock{
-    font-size: 4rem;
-    color: white;
+.timer {
+  width: 40px;
+  height: 40px;
+  margin-top: 7px;
+  margin-right: 10px;
+}
 
+#clock {
+  font-size: 4rem;
+  color: white;
 }
 
 .alarm-heading {
-    color: whitesmoke;
-    margin-bottom: 20px;
-    padding-top: 50px;
+  color: whitesmoke;
+  margin-bottom: 20px;
+  padding-top: 50px;
 }
 
-.set-alarm-field{
-    margin-top: -20px;
-    height: 40px;
-    /* background-color: yellowgreen; */
-    padding-top: 0px;
+.set-alarm-field {
+  margin-top: -20px;
+  height: 40px;
+  /* background-color: yellowgreen; */
+  padding-top: 0px;
 }
 
-.controls{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.controls button{
-    background-color: #466a99;
-    border-color: #466a99;
-    color: whitesmoke;
-    width: 105px;
-    height: 35px;
-    border-radius: 5px;
-    font-size: 0.8rem;
-    font-weight:500;
+.controls button {
+  background-color: #466a99;
+  border-color: #466a99;
+  color: whitesmoke;
+  width: 105px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 
-.controls button:hover{
-    background-color: #204b74;
+.controls button:hover {
+  background-color: #204b74;
 }
 
-#myList{
-    list-style-type: none;
-    
+#myList {
+  list-style-type: none;
 }
 
-#myList li{
-    font-size: 1.2rem;
-    color: whitesmoke;
-    background-color: #204b74;
-    height: 2rem;
-    margin-left: -30px;
-    border-radius: 4px;
-    padding-left: 16px;
-    padding-top: 10px;
-    width: 280px;
-    margin-bottom: 10px;
-
+#myList li {
+  font-size: 1.2rem;
+  color: whitesmoke;
+  background-color: #204b74;
+  height: 2rem;
+  margin-left: -30px;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 10px;
+  width: 280px;
+  margin-bottom: 10px;
 }
 
-.time-list{
-    display: flex;
-    flex-direction: row;
+.time-list {
+  display: flex;
+  flex-direction: row;
 }
 
-
-.time-list span{
-    /* background-color: violet; */
-    width: 160px;
-    margin-right: 18px;
-    
+.time-list span {
+  /* background-color: violet; */
+  width: 160px;
+  margin-right: 18px;
 }
 
-.time-list button{
-    background-color: #5d759d;
-    border-color: #5d759d;
-    border-radius: 3px;
-    border-width: 0px;
-    height: 22px;
-    color: whitesmoke;
+.time-list button {
+  background-color: #5d759d;
+  border-color: #5d759d;
+  border-radius: 3px;
+  border-width: 0px;
+  height: 22px;
+  color: whitesmoke;
 }
